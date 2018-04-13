@@ -1,0 +1,17 @@
+<html>
+<head>
+  <script src="dist/vendor.bundle.js"></script>
+  <script src="dist/app.bundle.js"></script>
+</head>
+<body>
+  <h1 id="heading">Test</h1>
+  <h2>Date</h2>
+  <input type="text" />
+  <script>
+    $(document).ready(function() {
+      $('#heading').text('This works!'); // Works
+      $('input').datepicker(); // Does not work
+    });
+  </script>
+</body>
+</html>

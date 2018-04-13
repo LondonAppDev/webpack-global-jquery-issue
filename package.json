@@ -1,0 +1,25 @@
+{
+  "name": "webpack-global-jquery-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack && npx serve .",
+    "build": "npx webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "serve": "^6.5.5",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "bootstrap-datepicker": "^1.8.0",
+    "jquery": "^3.3.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "popper.js": "^1.14.3"
+  }
+}
